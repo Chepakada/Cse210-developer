@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace Unit03
+
+namespace Jumper
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Director director = new Director();
+            director.StartGame();
+            
         }
     }
 }
