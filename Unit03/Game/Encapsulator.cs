@@ -20,13 +20,16 @@ namespace Jumper{
 
 
         ///<summary>
-        ///It recieves
+        ///It recieves the character the user input as guess.
         ///</summary>
         public string setcharacter(){
             
             return character;
 
         }
+        ///<summary>   
+        ///   It gets 
+        ///   
          public void getword(string charac){
             word = charac;
             
@@ -35,7 +38,7 @@ namespace Jumper{
 
 
         ///<summary>
-        ///It recieves
+        ///It recieves word that was create as the challange
         ///</summary>
         public string setword(){
             

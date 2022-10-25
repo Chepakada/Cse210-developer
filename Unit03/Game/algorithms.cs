@@ -106,13 +106,6 @@ namespace Jumper{
             }
         }
 
-            
-
-            
-
-     
-
-
         
 
         public void Display(Encapsulator _encapsulator){
