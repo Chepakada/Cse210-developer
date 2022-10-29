@@ -36,7 +36,9 @@ namespace Jumper{
         // }
 
 
-
+        ///<summary>
+        ///It creates a list for words and the display screen
+        ///</summary>
         public void word_manager(string words){
             
            
@@ -55,7 +57,9 @@ namespace Jumper{
             }
         }}
 
-
+        ///<summary>
+        ///It finds out where the indices of given character are in the word.
+        ///</summary>
         private List<int> index_generator(string words){ 
             
             int index = 0;
@@ -75,7 +79,9 @@ namespace Jumper{
             
         }
 
-
+        ///<summary>
+        ///it makes the changes in parachute and the hint
+        ///</summary>
         public void game_runner(Encapsulator _encapsulator){
             _changingLetter= _encapsulator.setcharacter();
             string words = _encapsulator.setword();
@@ -107,7 +113,10 @@ namespace Jumper{
         }
 
         
-
+        
+        ///<summary>
+        ///It goes through the list for map and prints them
+        ///</summary>
         public void Display(Encapsulator _encapsulator){
             string word = _encapsulator.setword();
             word_manager(word);
@@ -127,6 +136,9 @@ namespace Jumper{
         }
 
 
+        ///<summary>
+        ///It checks if the user has used all his chances or has won the game.
+        ///</summary>
         public bool Game_ender(Encapsulator _encapsulator){
             string words = _encapsulator.setword();
             
