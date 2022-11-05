@@ -79,19 +79,18 @@ namespace Unit04.Game.Directing
             {
                 if (robot.GetPosition().Equals(actor.GetPosition()))
                 {   
-                    
+                    //takes score away if you hit astrik
                     if (actor.GetText().Equals(actor.Astrik()))
                     {
                         _score.SetScore(-10);
                         cast.RemoveActor("artifacts", actor);
                         }
+                        //gives score if you hit 0
                     else if (actor.GetText().Equals(actor.Box())){
                         _score.SetScore(10);
                         cast.RemoveActor("artifacts", actor);
                     }
-                    // else{
-                    //     _score.SetScore(0);
-                    // }
+                    
                     
                     
                 

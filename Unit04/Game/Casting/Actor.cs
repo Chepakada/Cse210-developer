@@ -26,10 +26,17 @@ namespace Unit04.Game.Casting
         public Actor()
         {
         }
+
+        ///<summary>
+        ///return string *
+        ///</summary>
         public string Astrik(){
             string _astrik ="*";
             return _astrik;
         }
+        ///<summary>
+        ///return string 0
+        ///</summary>
         public string Box(){
             string  box = "0";
             return box;
